@@ -1,0 +1,14 @@
+{
+  "name": "@abisheklaxmanan/opentox-toxicology-projects-and-programs",
+  "main": "b7a4f471bb9fc87e@115.js",
+  "version": "115.0.0",
+  "homepage": "https://observablehq.com/@abisheklaxmanan/opentox-toxicology-projects-and-programs",
+  "author": {
+    "name": "Abishek Laxmanan",
+    "url": "https://observablehq.com/@abisheklaxmanan"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

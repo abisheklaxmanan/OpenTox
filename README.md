@@ -1,6 +1,33 @@
-# OpenTox Internship
-OpenTox Observable Hq notebook on Toxicology Projects and Programs
+# OpenTox: Toxicology Projects and Programs
 
-Visual interpretation of the collected data on Toxicology Projects and Programs in the form of barcharts, piecharts and as tables.
+https://observablehq.com/@abisheklaxmanan/opentox-toxicology-projects-and-programs@115
 
-Different types of programs based on Continents, type of data, organisms used are classified for the visual interpretation
+View this notebook in your browser by running a web server in this folder. For
+example:
+
+~~~sh
+npx http-server
+~~~
+
+Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
+import this module directly into your application. To npm install:
+
+~~~sh
+npm install @observablehq/runtime@4
+npm install https://api.observablehq.com/d/b7a4f471bb9fc87e.tgz?v=3
+~~~
+
+Then, import your notebook and the runtime as:
+
+~~~js
+import {Runtime, Inspector} from "@observablehq/runtime";
+import define from "@abisheklaxmanan/opentox-toxicology-projects-and-programs";
+~~~
+
+To log the value of the cell named “foo”:
+
+~~~js
+const runtime = new Runtime();
+const main = runtime.module(define);
+main.value("foo").then(value => console.log(value));
+~~~
